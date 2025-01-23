@@ -10,7 +10,7 @@ public class HollowHourGlass {
                 System.out.print(" ");
             }
             for (int j = 0; j < 2 * (N - i) - 1; j++) {
-                if (j == 0 || j == 2 * (N - i) - 2) {
+                if (i == 0 || j == 0 || j == 2 * (N - i) - 2) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
@@ -20,11 +20,12 @@ public class HollowHourGlass {
         }
 
         for (int i = N - 2; i >= 0; i--) {
+
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
             for (int j = 0; j < 2 * (N - i) - 1; j++) {
-                if (j == 0 || j == 2 * (N - i) - 2) {
+                if (i == 0 || j == 0 || j == 2 * (N - i) - 2) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
