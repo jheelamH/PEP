@@ -13,6 +13,6 @@ public class WordsLengthMap {
         wordsMap.put("elderberry", "elderberry".length());
 
         // Print the TreeMap to observe the sorted order of keys
-        System.out.println("TreeMap of words and their lengths: " + wordsMap);
+        System.out.println(wordsMap);
     }
 }

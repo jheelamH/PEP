@@ -12,7 +12,7 @@ public class EmployeeMap {
         employeeMap.put(105, "Eve");
 
         // Print the TreeMap to observe the sorted order
-        System.out.println("TreeMap of Employee IDs and Names: " + employeeMap);
+        System.out.println(employeeMap);
 
         // Find and print the first key
         System.out.println("First Key: " + employeeMap.firstKey());
